@@ -23,16 +23,17 @@ Run the update command: webdriver-manager update
 
 Run the start command: webdriver-manager start (In your config file, set seleniumAddress to the address of the running server. This defaults to http://localhost:4444/wd/hub.)
 
-________________________________________________________________________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________________________________
 
 Running protractos tests
+
 $ protractor conf.js --suite=suiteName (run specific test suite)
 
 $ protractor conf.js --suite=suiteName1,suiteName2  (run specific test suites)
 
 $ protractor conf.js (run all test available tests)
 
-__________________________________________________________________________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________________________________
 
 grunt protractor runner
 
