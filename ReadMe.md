@@ -33,6 +33,7 @@ $ protractor conf.js --suite=suiteName1,suiteName2  (run specific test suites)
 
 $ protractor conf.js (run all test available tests)
 
+Where $ is full path to your conf.js file
 ________________________________________________________________________________________________________________________________________
 
 grunt protractor runner
